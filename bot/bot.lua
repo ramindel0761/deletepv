@@ -134,7 +134,7 @@ function create_config( )
     info_text = [[*》delete Messenger V1.0*
 `》An messenger bot based on plugin`
 
-》[delete Messenger](https://github.com/BeyondTeam/BDMessenger)
+》[delete Messenger](https://github.com/ramindel0761/deletepv)
 *》Our channel :*
 》[deleteTeam](Telegram.Me/deleteTeam)
 ]],
