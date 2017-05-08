@@ -87,7 +87,7 @@ _Show Your And Chat ID_
 */delete*
 _Show About Bot_
 
-[Beyond Team Channel](Telegram.Me/BeyondTeam)
+[Beyond Team Channel](Telegram.Me/deleteTeam)
 _Good Luck_ *:D*
 
 ]]
@@ -381,12 +381,12 @@ if msg.chat.type ~= "private" and not redis:get('AutoLeave') and redis:get("real
    LeaveGroup(msg.chat.id)
 end
     if msg.text == "🌟کانال ما"  then
-   return send_key(msg.from.id, "[our channel](http://telegram.me/BeyondTeam)",markdown)
+   return send_key(msg.from.id, "[our channel](http://telegram.me/deleteTeam)",markdown)
  end
 if msg.text == "/start" and msg.chat.type == "private" then
 add_user(msg)
 if not redis:get("setstart") then
-   startmsg = "Welmcome To Official Messenger Bot Of Beyond Team  [our channel](http://telegram.me/BeyondTeam)"
+   startmsg = "Welmcome To Official Messenger Bot Of delete Team  [our channel](http://telegram.me/deleteTeam)"
        else
     startmsg = redis:get("setstart")
   end
